@@ -80,7 +80,7 @@ await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:m
 
 //Download video
 
-let down = await ad.yta(url)
+let down = await fg.yta(url)
 let downloadUrl = down.dl_url
 
 //Send video + document massage
