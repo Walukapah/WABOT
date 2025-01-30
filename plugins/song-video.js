@@ -15,7 +15,7 @@ try{
 	if(!q) return reply("Please give url / title 📎")
 	const search = await yts(q)
 	const data = search.videos[0];
-	const url =data.url
+	const url = data.url
 	
 let desc = `
  ⚡ *SRIBOT SONG DOWNLOADER* ⚡
@@ -62,7 +62,7 @@ try{
 	if(!q) return reply("Please give url / title 📎")
 	const search = await yts(q)
 	const data = search.videos[0];
-	const url =data.url
+	const url = data.url
 	
 let desc = `
  ⚡ *SRIBOT VIDEO DOWNLOADER* ⚡
