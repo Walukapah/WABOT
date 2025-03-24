@@ -69,9 +69,9 @@ require("./plugins/" + plugin);
 console.log('PLUGINS INSTALLED SUCCESSFUL ✅')
 console.log('SRI-BOT CONNECTED SUCCESSFUL ✅')
 
-let up = `> SRI-BOT CONNECTED SUCCESSFUL ✅\n\nPREFIX: ${prefix}`;
+//let up = `> SRI-BOT CONNECTED SUCCESSFUL ✅\n\nPREFIX: ${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/900435c6d3157c98c3c88.jpg` }, caption: up })
+//conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/900435c6d3157c98c3c88.jpg` }, caption: up })
 
 }
 })
